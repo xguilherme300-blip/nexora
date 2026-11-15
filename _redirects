@@ -1,0 +1,9 @@
+/servicos    /servicos.html    200
+/portfolio  /portfolio.html  200
+/precos     /precos.html     200
+/contato    /contato.html    200
+/servicos/  /servicos        301
+/portfolio/ /portfolio       301
+/precos/    /precos          301
+/contato/   /contato         301
+/*          /404.html        404

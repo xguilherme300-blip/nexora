@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nexora-digital-studio-6de74d.netlify.app/sitemap.xml
