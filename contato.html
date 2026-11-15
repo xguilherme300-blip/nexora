@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato e orçamento — NEXORA</title>
+  <meta name="description" content="Peça um orçamento à NEXORA. O formulário abre o WhatsApp com a sua mensagem. O site não armazena o pedido.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#090B10">
+  <meta property="og:title" content="Contato e orçamento — NEXORA">
+  <meta property="og:description" content="Peça um orçamento à NEXORA. O formulário abre o WhatsApp com a sua mensagem. O site não armazena o pedido.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <script type="application/ld+json" id="ld-nexora">
+  {"@context":"https://schema.org","@type":"ProfessionalService","name":"NEXORA","description":"Criação de sites, landing pages, cardápios digitais, artes para redes sociais e identidade visual.","areaServed":"BR","knowsLanguage":"pt-BR"}
+  </script>
+  <div class="page" data-nexora data-page="contato">
+    <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/" aria-label="NEXORA, início"><svg class="logo-mark" viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="7" fill="#3478F6"/><path fill="#FFFFFF" d="M9 8h3.2v8.1L18.7 8H22v16h-3.2v-8.1L12.3 24H9V8z"/></svg><span>NEXORA</span></a>
+    <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="nav" aria-label="Principal"><a href="/">Início</a><a href="/servicos">Serviços</a><a href="/portfolio">Portfólio</a><a href="/precos">Preços</a><a href="/contato" aria-current="page">Contato</a></nav>
+    <a class="btn btn-primary header-cta" href="/contato">Orçamento</a>
+  </div>
+</header>
+<div id="setup-note" class="setup-note" hidden>
+  <div class="wrap setup-inner">
+    <p>Proprietário: publique seu WhatsApp para os botões de contratação abrirem a conversa com você.</p>
+    <a class="text-link" href="/precos#editar">Configurar</a>
+  </div>
+</div>
+    <main id="conteudo" class="section">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="eyebrow">Contato</p>
+      <h1>Peça o orçamento por mensagem.</h1>
+      <p class="lede">Preencha os dados e envie pelo WhatsApp. Este site não guarda o pedido em servidor e não confirma pagamento.</p>
+      <ul class="channel-list">
+        <li>
+          <span class="k">WhatsApp</span>
+          <a data-wa data-channel="whatsapp" data-wa-text="Olá, NEXORA. Vim pela página de contato." href="/precos#editar">Configurar número do estúdio</a>
+        </li>
+        <li>
+          <span class="k">E-mail</span>
+          <a data-email-link href="/precos#editar">Configurar e-mail</a>
+        </li>
+        <li data-instagram-row hidden>
+          <span class="k">Instagram</span>
+          <a data-instagram-link href="https://instagram.com" target="_blank" rel="noopener noreferrer"></a>
+        </li>
+        <li>
+          <span class="k">Atendimento</span>
+          <span data-bind="cidade">Atendimento remoto em todo o Brasil</span>
+        </li>
+        <li>
+          <span class="k">Horário</span>
+          <span data-bind="horario">Segunda a sexta, 9h às 18h</span>
+        </li>
+      </ul>
+    </div>
+    <form id="quote-form" novalidate>
+      <div class="form-grid">
+        <label class="field" for="nome"><span>Nome</span>
+          <input id="nome" name="nome" type="text" autocomplete="name" maxlength="80" aria-describedby="err-nome" required>
+          <p class="field-error" id="err-nome" data-error-for="nome" hidden></p>
+        </label>
+        <label class="field" for="telefone"><span>Seu WhatsApp</span>
+          <input id="telefone" name="telefone" type="tel" autocomplete="tel" inputmode="tel" maxlength="20" aria-describedby="err-telefone" required>
+          <p class="field-error" id="err-telefone" data-error-for="telefone" hidden></p>
+        </label>
+        <label class="field" for="email"><span>E-mail</span>
+          <input id="email" name="email" type="email" autocomplete="email" maxlength="120" aria-describedby="err-email" required>
+          <p class="field-error" id="err-email" data-error-for="email" hidden></p>
+        </label>
+        <label class="field" for="servico"><span>Serviço</span>
+          <select id="servico" name="servico" aria-describedby="err-servico" required>
+            <option value="">Selecione</option>
+            <option value="sites">Criação de sites</option><option value="landing">Landing pages</option><option value="cardapio">Cardápios digitais</option><option value="artes">Artes para redes sociais</option><option value="identidade">Identidade visual</option>
+          </select>
+          <p class="field-error" id="err-servico" data-error-for="servico" hidden></p>
+        </label>
+        <p id="servico-meta" class="fine full">Escolha um serviço para ver o valor inicial publicado.</p>
+        <label class="field full" for="quando"><span>Quando você precisa</span>
+          <select id="quando" name="quando">
+            <option value="">Não informar</option>
+            <option>Sem data definida</option>
+            <option>Nas próximas semanas</option>
+            <option>Tenho uma data específica (explico na descrição)</option>
+          </select>
+        </label>
+        <label class="field full" for="descricao"><span>Sobre o projeto</span>
+          <textarea id="descricao" name="descricao" maxlength="2000" aria-describedby="err-descricao" required placeholder="O que você precisa, para quem é e se já tem texto, logo ou referências."></textarea>
+          <p class="field-error" id="err-descricao" data-error-for="descricao" hidden></p>
+        </label>
+      </div>
+      <div id="form-status" class="notice" role="status" hidden></div>
+      <div class="actions">
+        <button type="submit" class="btn btn-primary">Solicitar orçamento no WhatsApp</button>
+      </div>
+      <p class="fine">Ao continuar, seu WhatsApp abre com a mensagem pronta. Nada é gravado neste site. Campos de nome, telefone, e-mail, serviço e descrição são obrigatórios.</p>
+    </form>
+  </div>
+</main>
+    <footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="logo" href="/" aria-label="NEXORA, início"><svg class="logo-mark" viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="7" fill="#3478F6"/><path fill="#FFFFFF" d="M9 8h3.2v8.1L18.7 8H22v16h-3.2v-8.1L12.3 24H9V8z"/></svg><span>NEXORA</span></a>
+      <p>Estúdio de serviços digitais. O orçamento sai pelo WhatsApp. O pagamento é combinado fora deste site.</p>
+    </div>
+    <div>
+      <p class="footer-label">Páginas</p>
+      <a href="/servicos">Serviços</a>
+      <a href="/portfolio">Portfólio demonstrativo</a>
+      <a href="/precos">Preços</a>
+      <a href="/contato">Contato</a>
+    </div>
+    <div>
+      <p class="footer-label">Contratar</p>
+      <a href="/contato">Pedir orçamento</a>
+      <a data-wa data-wa-text="Olá, NEXORA. Quero um orçamento." href="/precos#editar">WhatsApp</a>
+      <a href="/precos#editar">Área do proprietário</a>
+    </div>
+  </div>
+  <div class="wrap footer-base">
+    <span>© <span data-year>2026</span> NEXORA</span>
+    <span>Valores iniciais. O preço final depende do escopo confirmado por mensagem.</span>
+  </div>
+</footer>
+  </div>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

@@ -15,11 +15,12 @@ Salvar na página só altera o navegador em que você editou. Visitantes passam 
 
 ## Publicar de graça na Netlify
 
-O repositório já aponta para o site `nexora-digital-studio-6de74d`.
+Repositório: https://github.com/xguilherme300-blip/nexora
+Site já criado: https://nexora-digital-studio-6de74d.netlify.app
 
-1. Na Netlify, abra o projeto e escolha **Import from Git** / **Link repository**.
+1. Na Netlify, abra o projeto e use **Link repository** / importar do GitHub.
 2. Autorize o GitHub e selecione `xguilherme300-blip/nexora`, branch `main`.
-3. Build command: vazio. Publish directory: `.`
+3. Build command vazio. Publish directory: `.`
 4. Cada push em `main` publica de novo. Plano gratuito, sem cartão.
 
 ## O que o visitante faz
